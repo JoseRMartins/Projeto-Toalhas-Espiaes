@@ -1,0 +1,34 @@
+@charset"UTF-8";
+
+body {
+    overflow-x: hidden; 
+}
+
+#section2{
+    background-image: url(https://roboticascgames.files.wordpress.com/2017/08/giphy.gif?w=1200);
+}
+
+.caixa{
+    padding: 60px 0;
+}
+
+@media only screen and (max-width: 576px) {
+    #nav-principal > ul > li > a {
+        border-bottom: 1px solid white;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+    #nav-principal > ul > li > a:hover {
+        background-color: #0c2c28;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #entrar{
+        margin-left: 25px;
+    }
+}
+
+
+
+
